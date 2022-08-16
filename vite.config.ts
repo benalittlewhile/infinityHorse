@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [svelte()],
   base: "/infinityHorse/",
   build: {
-    outDir: "../docs",
+    outDir: "./docs",
     emptyOutDir: true,
   }
 })
